@@ -1,0 +1,149 @@
+:root {
+    --titlecolor: #101828;  
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+  }
+  
+  .heading {
+    font-family: 'Inter';
+    font-style: normal;
+    color: var(--main-color)
+  }
+
+  .subheading {
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Inter';
+    font-style: normal;
+  }
+
+  .cabeçario {
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 1440px;
+    height: 407px;
+    left: calc(50% - 1440px/2);
+    top: 80px;
+  }
+
+  .cabeçario_container{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .cabeçario h1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cabeçario h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .cabeçario p {
+    text-align: center;
+    color: var(--text-color);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .metrica {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px 96px;
+    
+    width: 1440px;
+    height: 288px;
+    left: 0px;
+    top: 487px;
+
+  }
+
+  .card {
+    width: 280px;
+    height: 84px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .metrica h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .metrica h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .descriçao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
