@@ -178,11 +178,11 @@
     font-weight: 500;
     line-height: 20px;
     text-align: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
+    color: #8E2424;
 
     background: rgba(142, 36, 36, 0.05);
     border-radius: 16px;
-    color:var(--main-color);
 
   }
 
@@ -191,7 +191,7 @@
     font-weight: 600;
     line-height: 44px;
     text-align: center;
-    margin: 16px 0px;
+    margin: 10px 0px;
   }
 
   .talentos_container h6{
@@ -200,17 +200,16 @@
     line-height: 30px;
     text-align: center;
     color: #667085;
-    margin: 20px 0px;
+    margin: 10px 0px;
   }
 
 
-  .imagem_talentos-image.png {
-    position: absolute;
+  .talentosimagem {
+    margin:40px;
     width: 1216px;
     height: 400px;
     left: 112px;
     top: 298px;
-    
-    background: url(image.png)
+
   }
   
