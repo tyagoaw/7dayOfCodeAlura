@@ -15,6 +15,7 @@
     text-align: center;
     width: 100%;
     height: 100vh;
+    flex-wrap: wrap;
   }
   
   header {
@@ -147,3 +148,69 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  .talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    
+    position: static;
+    width: 1440px;
+    height: 1798px;
+    left: 0px;
+    top: 775px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    
+  }
+  .talentos_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+  
+  }
+
+  .talentos_container h1{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin: 20px 0px;
+
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color:var(--main-color);
+
+  }
+
+  .talentos_container h5 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    margin: 16px 0px;
+  }
+
+  .talentos_container h6{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    margin: 20px 0px;
+  }
+
+
+  .imagem_talentos-image.png {
+    position: absolute;
+    width: 1216px;
+    height: 400px;
+    left: 112px;
+    top: 298px;
+    
+    background: url(image.png)
+  }
+  
