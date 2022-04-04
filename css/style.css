@@ -347,3 +347,77 @@
     border-radius: 16px;
 
   }
+
+  .depo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 96px;
+  }
+
+  .depo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    margin: 65px;
+
+    height: 440px;
+    left: 32px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+  }
+
+  .depo-atributo {
+    top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    font-family: 'Inter';
+    font-style: normal;
+  }
+
+  .depo-atributo h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1088px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #8E2424;
+  }
+
+  .depo-imagem {
+    margin:32px;
+  }
+
+  .depo-atributo h3 {
+    margin: 16px;
+    width: 1088px;
+    
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px; 
+    color: #101828;
+  }
+
+  .depo-atributo h5 {
+    width: 1088px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+
+  }
+
+  .depo-atributo p { 
+    padding: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+  }
