@@ -155,11 +155,6 @@
     align-items: center;
     padding: 96px 0px;
     
-    position: static;
-    width: 1440px;
-    height: 1798px;
-    left: 0px;
-    top: 775px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -212,4 +207,143 @@
     top: 298px;
 
   }
+
+  .vagasdesign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vagasdesenvolvedor {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    
+  }
+  .texto{
+    width: 768px;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .vagasdesign h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .vagasdesenvolvedor h1{
+    text-align:left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .titulo-vaga {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+  }
+
+  .informacoes {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+  }
+
+  .informacoes span:first-child{
+    margin-right: 10px;
+  }
   
+  .vagaDesc {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 768px;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+  
+  .vaga-uxdesigner {
+    margin: 20px;
+    position: static;
+    width: 768px;
+    height: 136px;
+    left: 0px;
+    top: 160px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .vaga-ios {
+    margin: 20px;
+    position: static;
+    width: 768px;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+  }
+
+  .vaga-frontend {
+    margin: 20px;
+    position: static;
+    width: 768px;
+    height: 136px;
+    left: 0px;
+    top: 160px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .vaga-backend {
+    margin: 20px;
+    position: static;
+    width: 768px;
+    height: 136px;
+    left: 0px;
+    top: 320px;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+  }
