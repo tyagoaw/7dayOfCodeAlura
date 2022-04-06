@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1rem 0;
 
     width: 1440px;
@@ -71,6 +72,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
     width: 1440px;
     height: 407px;
@@ -83,6 +85,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .cabeçario h1 {
@@ -111,6 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0px 0px 96px;
     
     width: 1440px;
@@ -153,6 +157,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     padding: 96px 0px;
     
 
@@ -164,6 +169,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0px 32px;
   
   }
@@ -214,6 +220,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .vagasdesenvolvedor {
@@ -222,6 +229,7 @@
     flex-direction: column;
     align-items: center;
     justify-content:center ;
+    flex-wrap: wrap;
     
   }
   .texto{
@@ -276,6 +284,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 768px;
     height: 136px;
     left: 0px;
@@ -352,6 +361,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0 0 96px;
   }
 
@@ -374,6 +384,7 @@
     display: flex;
     flex-direction: column;
     align-items: center ;
+    flex-wrap: wrap;
     font-family: 'Inter';
     font-style: normal;
   }
@@ -382,6 +393,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     width: 1088px;
 
     font-weight: 600;
@@ -420,4 +432,112 @@
     font-size: 14px;
     line-height: 20px;
     color: #667085;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding:96px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+
+    width: 1499px;
+    height: 430px;
+    left: 0px;
+    top: 3073px; 
+    background: #F9FAFB;
+  }
+
+  .hair-form h1 {
+    height: 44px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    text-align: center;
+    letter-spacing: -0.02em; 
+    color: #101828;
+  }
+
+  .hair-form h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px;
+    
+    color: #667085;
+  }
+
+
+  .copyright h1{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #98A2B3;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    width: 768px;
+    height: 182px;
+    left: 32px;
+    top: 0px;
+  }
+
+  .form-email {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 0px;
+    
+    width: 492px;
+    height: 48px;
+    left: 138px;
+    top: 134px;
+  }
+
+  .captura-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 14px 12px 16px;
+
+    color: #667085;
+    
+    width: 360px;
+    height: 48px;
+    
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+  }
+
+  .captura-cadastro {
+    padding: 12px 20px;
+    
+    font-size: 16px;
+    color: #FFFFFF;
+
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-sizing: border-box;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
   }
